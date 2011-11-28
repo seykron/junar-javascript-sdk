@@ -1,0 +1,14 @@
+{
+  "name" : "Junar API Platform for NodeJS",
+  "version" : "v0.0.1",
+  "description" : "Performs operations against the Junar API.",
+  "main" : "./index",
+  "author" : {
+    "name" : "Matías Mirabelli",
+    "email" : "lumen.night@gmail.com"
+  },
+  "dependencies": {
+    "prototype": ">=0.0.5",
+  }
+}
+
