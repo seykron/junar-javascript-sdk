@@ -8,7 +8,7 @@
     "email" : "lumen.night@gmail.com"
   },
   "dependencies": {
-    "prototype": ">=0.0.5",
+    "prototype": ">=0.0.5"
   }
 }
 
