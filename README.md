@@ -16,11 +16,13 @@ folder in your project:
 ## Usage ##
 
 Adding Junar to the application:
+
     var Junar = export("junar").create({
       authKey : "[your-junar-api-key]"
     });
 
 Reading data streams:
+
     Junar.stream("LATES-7-AROUN-THE-WORLD", [], function(response) {
       var region = response.result.getValue(2, 7).getValue();
       var magnitude = response.result.getValue(2, 2);
