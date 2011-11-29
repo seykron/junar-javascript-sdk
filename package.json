@@ -1,6 +1,6 @@
 {
-  "name" : "Junar API Platform for NodeJS",
-  "version" : "v0.0.1",
+  "name" : "junar",
+  "version" : "v0.0.2",
   "description" : "Performs operations against the Junar API.",
   "main" : "./index",
   "author" : {
