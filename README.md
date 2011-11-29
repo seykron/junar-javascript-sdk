@@ -5,7 +5,7 @@ organize, use and share data.
 ## Installation ##
 You can install via npm:
 
-    $ npm install express
+    $ npm install junar
 
 or just cloning the repository and putting the sources under the node_modules
 folder in your project:
