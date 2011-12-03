@@ -24,10 +24,21 @@ Adding Junar to the application:
 Reading data streams:
 
     Junar.stream("LATES-7-AROUN-THE-WORLD", [], function(response) {
-      var region = response.result.getValue(2, 7).getValue();
-      var magnitude = response.result.getValue(2, 2);
+      var table = response.result;
+      var region = table.result.getValue(2, 7).getValue();
+      var magnitude = table.getValue(2, 2);
 
       console.log("Last earthquake ocurred in " + region +
         " with a magnitude of " + magnitude);
     });
 
+## License ##
+(Released under MIT License since v0.0.1)
+
+Copyright (c) 2011 Matías Mirabelli <lumen[dot]night@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
